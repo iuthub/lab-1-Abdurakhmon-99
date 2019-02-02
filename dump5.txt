@@ -1,0 +1,49 @@
+== Info: Rebuilt URL to: http://blog.hubspot.com/
+== Info:   Trying 104.17.132.180...
+== Info: TCP_NODELAY set
+== Info: Connected to blog.hubspot.com (104.17.132.180) port 80 (#0)
+=> Send header, 80 bytes (0x50)
+0000: GET / HTTP/1.1
+0010: Host: blog.hubspot.com
+0028: User-Agent: curl/7.55.1
+0041: Accept: */*
+004e: 
+<= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 301 Moved Permanently
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 02 Feb 2019 04:40:18 GMT
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 147 bytes (0x93)
+0000: Set-Cookie: __cfduid=d69374353f1c8ad2d5ec79e3166f08b841549082418
+0040: ; expires=Sun, 02-Feb-20 04:40:18 GMT; path=/; domain=.blog.hubs
+0080: pot.com; HttpOnly
+<= Recv header, 36 bytes (0x24)
+0000: Location: https://blog.hubspot.com
+<= Recv header, 22 bytes (0x16)
+0000: CF-Cache-Status: HIT
+<= Recv header, 41 bytes (0x29)
+0000: Cache-Control: s-maxage=300,max-age=120
+<= Recv header, 30 bytes (0x1e)
+0000: CF-Ray: 4a29fa98df46764e-ARN
+<= Recv header, 41 bytes (0x29)
+0000: Access-Control-Allow-Credentials: false
+<= Recv header, 53 bytes (0x35)
+0000: Edge-Control: cache-maxage=300s,downstream-ttl=120s
+<= Recv header, 64 bytes (0x40)
+0000: Strict-Transport-Security: max-age=31536000; includeSubDomains
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 71 bytes (0x47)
+0000: X-Trace: 2B9D4127233E2083F5C127F40B77E2A0151C4DB1850000000000000
+0040: 00000
+<= Recv header, 118 bytes (0x76)
+0000: Set-Cookie: __cfruid=bb71b81e15e312d00085d69dd17b42dc96d09501-15
+0040: 49082418; path=/; domain=.blog.hubspot.com; HttpOnly
+<= Recv header, 20 bytes (0x14)
+0000: Server: cloudflare
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host blog.hubspot.com left intact

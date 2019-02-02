@@ -1,0 +1,74 @@
+== Info:   Trying 93.184.216.34...
+== Info: TCP_NODELAY set
+== Info: Connected to example.com (93.184.216.34) port 80 (#0)
+=> Send header, 484 bytes (0x1e4)
+0000: GET / HTTP/1.1
+0010: Host: example.com
+0023: Connection: keep-alive
+003b: Cache-Control: max-age=0
+0055: Upgrade-Insecure-Requests: 1
+0073: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
+00b3: t/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+00f3: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,im
+0133: age/webp,image/apng,*/*;q=0.8
+0152: Accept-Encoding: gzip, deflate
+0172: Accept-Language: en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7
+01a8: If-None-Match: ^\^1541025663+gzip" -H If-Modified-Since:
+01e2: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 24 bytes (0x18)
+0000: Content-Encoding: gzip
+<= Recv header, 31 bytes (0x1f)
+0000: Cache-Control: max-age=604800
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 02 Feb 2019 05:25:08 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Etag: "1541025663+gzip"
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Sat, 09 Feb 2019 05:25:08 GMT
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Server: ECS (dca/24D3)
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 14 bytes (0xe)
+0000: X-Cache: HIT
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 606
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 606 bytes (0x25e)
+0000: ....;..R...TA..0...W.r.i]...S.V @.....1k..Z..$.6...q.....@+....
+0040: l.I.I..s.PzUe....Bf..'..+.>...+.OF..I4h....^@^....A..p.@.M...u..
+0080: .j............*.<.|....P...P..-..6.O..$}.Jl).._,.4y.U.rQazw.r...
+00c0: t...s....3..z._......2.Mel...5.....%..t.....R...t.3....:..|.Q..
+0100: .]....V-z..|..Y3*...r.Kp.5th.."..C...NH....v..OOy....xs.....V..$
+0140: ..X.6.BR.b.C..P.qE...K.<...G...7.....E(17Vx2.U..S...%.x..).d...
+0180: ...e...O&..4/.......~..Oi.s.X..dW..7..#.u."..y\$]j<.L.r...'....V
+01c0: g?Kr {=....]E..^x.;...X..TU..].[......{....s+.e....9.g...]....H.
+0200: 4....#..KA..'.Z.......*r...$.G......4.n.8.......+c....E.hA..X...
+0240: .........L..RIt.[4\o.........
+== Info: Failed writing body (0 != 606)
+== Info: Closing connection 0
+== Info: Rebuilt URL to: Fri,/
+== Info: Could not resolve host: Fri,
+== Info: Closing connection 1
+== Info: Rebuilt URL to: 09/
+== Info: Could not resolve host: 09
+== Info: Closing connection 2
+== Info: Rebuilt URL to: Aug/
+== Info: Could not resolve host: Aug
+== Info: Closing connection 3
+== Info: Rebuilt URL to: 2013/
+== Info: Could not resolve host: 2013
+== Info: Closing connection 4
+== Info: Rebuilt URL to: 23:54:35/
+== Info: Port number ended with ':'
+== Info: Closing connection -1
+== Info: Rebuilt URL to: GMT --compressed/
+== Info: Could not resolve host: GMT --compressed
+== Info: Closing connection 5
